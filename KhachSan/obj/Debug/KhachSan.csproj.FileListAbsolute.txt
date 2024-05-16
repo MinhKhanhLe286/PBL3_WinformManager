@@ -1,0 +1,36 @@
+C:\Users\trama\OneDrive\Máy tính\KS\KhachSan\KhachSan\bin\Debug\KhachSan.exe.config
+C:\Users\trama\OneDrive\Máy tính\KS\KhachSan\KhachSan\bin\Debug\KhachSan.exe
+C:\Users\trama\OneDrive\Máy tính\KS\KhachSan\KhachSan\bin\Debug\KhachSan.pdb
+C:\Users\trama\OneDrive\Máy tính\KS\KhachSan\KhachSan\bin\Debug\Guna.UI2.dll
+C:\Users\trama\OneDrive\Máy tính\KS\KhachSan\KhachSan\obj\Debug\KhachSan.csproj.AssemblyReference.cache
+C:\Users\trama\OneDrive\Máy tính\KS\KhachSan\KhachSan\obj\Debug\KhachSan.Form1.resources
+C:\Users\trama\OneDrive\Máy tính\KS\KhachSan\KhachSan\obj\Debug\KhachSan.Properties.Resources.resources
+C:\Users\trama\OneDrive\Máy tính\KS\KhachSan\KhachSan\obj\Debug\KhachSan.csproj.GenerateResource.cache
+C:\Users\trama\OneDrive\Máy tính\KS\KhachSan\KhachSan\obj\Debug\KhachSan.csproj.CoreCompileInputs.cache
+C:\Users\trama\OneDrive\Máy tính\KS\KhachSan\KhachSan\obj\Debug\KhachSan.csproj.CopyComplete
+C:\Users\trama\OneDrive\Máy tính\KS\KhachSan\KhachSan\obj\Debug\KhachSan.exe
+C:\Users\trama\OneDrive\Máy tính\KS\KhachSan\KhachSan\obj\Debug\KhachSan.pdb
+C:\Users\trama\OneDrive\Máy tính\KS\KhachSan\KhachSan\obj\Debug\KhachSan.Dashboard.resources
+C:\Users\trama\OneDrive\Máy tính\KS\KhachSan\KhachSan\obj\Debug\KhachSan.All_User_Control.UC_AddRoom.resources
+C:\Users\trama\OneDrive\Máy tính\KS\KhachSan\KhachSan\obj\Debug\KhachSan.All_User_Control.UC_CustomerRes.resources
+C:\Users\trama\OneDrive\Máy tính\KS\KhachSan\KhachSan\obj\Debug\KhachSan.All_User_Control.UC_CheckOut.resources
+C:\Users\trama\OneDrive\Máy tính\KS\KhachSan\KhachSan\obj\Debug\KhachSan.All_User_Control.UC_CustomerDetails.resources
+C:\Users\trama\OneDrive\Máy tính\KS\KhachSan\KhachSan\obj\Debug\KhachSan.All_User_Control.UC_Employee.resources
+C:\Users\lenovo\Downloads\loliii\KhachSan\bin\Debug\KhachSan.exe.config
+C:\Users\lenovo\Downloads\loliii\KhachSan\bin\Debug\KhachSan.exe
+C:\Users\lenovo\Downloads\loliii\KhachSan\bin\Debug\KhachSan.pdb
+C:\Users\lenovo\Downloads\loliii\KhachSan\bin\Debug\Guna.UI2.dll
+C:\Users\lenovo\Downloads\loliii\KhachSan\obj\Debug\KhachSan.csproj.AssemblyReference.cache
+C:\Users\lenovo\Downloads\loliii\KhachSan\obj\Debug\KhachSan.All_User_Control.UC_AddRoom.resources
+C:\Users\lenovo\Downloads\loliii\KhachSan\obj\Debug\KhachSan.All_User_Control.UC_CheckOut.resources
+C:\Users\lenovo\Downloads\loliii\KhachSan\obj\Debug\KhachSan.All_User_Control.UC_CustomerDetails.resources
+C:\Users\lenovo\Downloads\loliii\KhachSan\obj\Debug\KhachSan.All_User_Control.UC_CustomerRes.resources
+C:\Users\lenovo\Downloads\loliii\KhachSan\obj\Debug\KhachSan.All_User_Control.UC_Employee.resources
+C:\Users\lenovo\Downloads\loliii\KhachSan\obj\Debug\KhachSan.Dashboard.resources
+C:\Users\lenovo\Downloads\loliii\KhachSan\obj\Debug\KhachSan.Form1.resources
+C:\Users\lenovo\Downloads\loliii\KhachSan\obj\Debug\KhachSan.Properties.Resources.resources
+C:\Users\lenovo\Downloads\loliii\KhachSan\obj\Debug\KhachSan.csproj.GenerateResource.cache
+C:\Users\lenovo\Downloads\loliii\KhachSan\obj\Debug\KhachSan.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Downloads\loliii\KhachSan\obj\Debug\KhachSan.csproj.Up2Date
+C:\Users\lenovo\Downloads\loliii\KhachSan\obj\Debug\KhachSan.exe
+C:\Users\lenovo\Downloads\loliii\KhachSan\obj\Debug\KhachSan.pdb
