@@ -150,6 +150,28 @@
   <metadata name="guna2Elipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="btnThanhToan.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAA+JJREFUSEvt
+        k21MW2UUx8m++fLB7Ms0dqNakoGXtnPltqW93LZAW1rXlrT4sjkM65xhDikwWBq1I2zKW3mnMEA6WkoH
+        gVanGSAborIxggJmgyzyAZnTGbcQTYAYkwWPfa7PallAiS3xy37JPzk5zznn/zzn5kY95CHrsE3xfILp
+        pWTJu68mU2U6iTiLxUp8BJ9tDWkiEXXCmHK1L9+0er4wA5B8BSawvaycNcrFWbgssuhpqb4sUzN33/BB
+        uY8Zfj+ipX1qoZCPW8IHmTYd2fdL4KXw0Tqm9+V4XbeoEotFuC188g3JQ2iwPScTKi2HwWsxrjH0B9bd
+        /qYRmt/QL6kkJI3bwsf2inLefzwDXPYSuHtjHAa8bdBe+g40FxdC62krdDsqoK38JPTmmSBbI3PitvAp
+        2a+asR9OX5n/ahhmRvthbvwicwEkFKPcwuQIVJr1Kzl6RS9uCx9LenK/Pdd8Fw2/cM4Jflcr3LgyyAjF
+        KHdz6nOotmTdOaiSNeG28NGkpv1YZbUwLzzX1gieM/XBF48P+uD021YmrjiRCxq1ZgG3hY8p3TT1/fQX
+        zPBLPg9Mj3wSNJ767GMY9ncx8a1vvgRUi9vCJ0We1vft1aGg2UZCq09VqCP3jQlCsEun1c+Hmvw0O8Yo
+        NIdqno7hsXBbZNC9YJgINRnqdTMKzem0uglcHjkoSlHgbKheRisf7HGBr6OFEYrRL9VeW7lEUykWXB5Z
+        ZLTK7W1tXA59JVJXS92SPEnpwmVbQzxPdLm4qAgGujsYoZjHE43iY8S2mBi+mi+UVOwRSUt3PUtQOP/f
+        4XBiJbvj9i6OfOiF29cvMxoO/F67n9t7B51xOPE7hXL5+LHyvF9rLtZD9ad1YLYdXSST6GEWi9iOx2wO
+        gUDwKFcg9cYLqBVSZVjNKK+HbKcHLK1OOHn+AuT2+OG1D7pAqNavkjLFavNYC7hnOoNqcJZA9UDtH6Sc
+        voJH/jscDrkzji/+TW8tBuvX18E6NbuhDtQ6wOZ5b41paWMhNB46BPVVVnirqmA5Nl6gwqP/Ga6AumXu
+        7F3X6EFpso+C65o7aFrhOA43e4qgtiYPOq65AG1CKFN04tEbQxDE41xSds/c2QebUcrBzL9fWpcP33Uj
+        U0vA9K/LtE+ehQQ57cPjN4bNZj8RxxWOEXsSJzYjvpj62d5fAw0jDijJeRHK3s8OmiLZPKfucROEOXh8
+        5IiOjnuK3qe+zRh3nVqz9rOBVVNa5dyOHbzHcHlk4YulxrT96T80jZ4JmtZdagCFQbsQS5ISXLY1REfz
+        nhEqZN5EZeq0VJU6SSbJ2ths4kl8/H8TFfUntZf6cSHf/lEAAAAASUVORK5CYII=
+</value>
+  </data>
   <data name="btnEmployee.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAy5JREFUaEPt
@@ -268,5 +290,11 @@
   </metadata>
   <metadata name="guna2Elipse5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>665, 17</value>
+  </metadata>
+  <metadata name="guna2Elipse6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>836, 17</value>
+  </metadata>
+  <metadata name="guna2Elipse7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1007, 17</value>
   </metadata>
 </root>

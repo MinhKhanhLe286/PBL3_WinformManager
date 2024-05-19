@@ -1,18 +1,70 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\lenovo\\Downloads\\loliii\\",
+  "WorkspaceRootPath": "C:\\Users\\lenovo\\Downloads\\PBL3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AAFB5A54-5E83-404D-9B18-C71A7DF6DA6D}|KhachSan\\KhachSan.csproj|c:\\users\\lenovo\\downloads\\loliii\\khachsan\\all user control\\uc_checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{AAFB5A54-5E83-404D-9B18-C71A7DF6DA6D}|KhachSan\\KhachSan.csproj|c:\\users\\lenovo\\downloads\\pbl3\\khachsan\\all user control\\uc_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAFB5A54-5E83-404D-9B18-C71A7DF6DA6D}|KhachSan\\KhachSan.csproj|solutionrelative:khachsan\\all user control\\uc_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAFB5A54-5E83-404D-9B18-C71A7DF6DA6D}|KhachSan\\KhachSan.csproj|C:\\Users\\lenovo\\Downloads\\PBL3\\khachsan\\all user control\\uc_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AAFB5A54-5E83-404D-9B18-C71A7DF6DA6D}|KhachSan\\KhachSan.csproj|solutionrelative:khachsan\\all user control\\uc_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAFB5A54-5E83-404D-9B18-C71A7DF6DA6D}|KhachSan\\KhachSan.csproj|C:\\Users\\lenovo\\Downloads\\PBL3\\khachsan\\all user control\\uc_checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AAFB5A54-5E83-404D-9B18-C71A7DF6DA6D}|KhachSan\\KhachSan.csproj|solutionrelative:khachsan\\all user control\\uc_checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AAFB5A54-5E83-404D-9B18-C71A7DF6DA6D}|KhachSan\\KhachSan.csproj|c:\\users\\lenovo\\downloads\\loliii\\khachsan\\all user control\\uc_checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AAFB5A54-5E83-404D-9B18-C71A7DF6DA6D}|KhachSan\\KhachSan.csproj|C:\\Users\\lenovo\\Downloads\\PBL3\\khachsan\\all user control\\uc_customerdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAFB5A54-5E83-404D-9B18-C71A7DF6DA6D}|KhachSan\\KhachSan.csproj|solutionrelative:khachsan\\all user control\\uc_customerdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAFB5A54-5E83-404D-9B18-C71A7DF6DA6D}|KhachSan\\KhachSan.csproj|C:\\Users\\lenovo\\Downloads\\PBL3\\khachsan\\all user control\\uc_customerdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AAFB5A54-5E83-404D-9B18-C71A7DF6DA6D}|KhachSan\\KhachSan.csproj|solutionrelative:khachsan\\all user control\\uc_customerdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAFB5A54-5E83-404D-9B18-C71A7DF6DA6D}|KhachSan\\KhachSan.csproj|C:\\Users\\lenovo\\Downloads\\PBL3\\khachsan\\all user control\\uc_addroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AAFB5A54-5E83-404D-9B18-C71A7DF6DA6D}|KhachSan\\KhachSan.csproj|solutionrelative:khachsan\\all user control\\uc_addroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAFB5A54-5E83-404D-9B18-C71A7DF6DA6D}|KhachSan\\KhachSan.csproj|C:\\Users\\lenovo\\Downloads\\PBL3\\khachsan\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAFB5A54-5E83-404D-9B18-C71A7DF6DA6D}|KhachSan\\KhachSan.csproj|solutionrelative:khachsan\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAFB5A54-5E83-404D-9B18-C71A7DF6DA6D}|KhachSan\\KhachSan.csproj|C:\\Users\\lenovo\\Downloads\\PBL3\\khachsan\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AAFB5A54-5E83-404D-9B18-C71A7DF6DA6D}|KhachSan\\KhachSan.csproj|solutionrelative:khachsan\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAFB5A54-5E83-404D-9B18-C71A7DF6DA6D}|KhachSan\\KhachSan.csproj|C:\\Users\\lenovo\\Downloads\\PBL3\\khachsan\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAFB5A54-5E83-404D-9B18-C71A7DF6DA6D}|KhachSan\\KhachSan.csproj|solutionrelative:khachsan\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAFB5A54-5E83-404D-9B18-C71A7DF6DA6D}|KhachSan\\KhachSan.csproj|C:\\Users\\lenovo\\Downloads\\PBL3\\khachsan\\all user control\\uc_customerres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AAFB5A54-5E83-404D-9B18-C71A7DF6DA6D}|KhachSan\\KhachSan.csproj|solutionrelative:khachsan\\all user control\\uc_customerres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAFB5A54-5E83-404D-9B18-C71A7DF6DA6D}|KhachSan\\KhachSan.csproj|C:\\Users\\lenovo\\Downloads\\PBL3\\khachsan\\all user control\\uc_checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AAFB5A54-5E83-404D-9B18-C71A7DF6DA6D}|KhachSan\\KhachSan.csproj|solutionrelative:khachsan\\all user control\\uc_checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AAFB5A54-5E83-404D-9B18-C71A7DF6DA6D}|KhachSan\\KhachSan.csproj|c:\\users\\lenovo\\downloads\\loliii\\khachsan\\all user control\\uc_checkout.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AAFB5A54-5E83-404D-9B18-C71A7DF6DA6D}|KhachSan\\KhachSan.csproj|solutionrelative:khachsan\\all user control\\uc_checkout.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AAFB5A54-5E83-404D-9B18-C71A7DF6DA6D}|KhachSan\\KhachSan.csproj|C:\\Users\\lenovo\\Downloads\\PBL3\\khachsan\\all user control\\uc_.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAFB5A54-5E83-404D-9B18-C71A7DF6DA6D}|KhachSan\\KhachSan.csproj|solutionrelative:khachsan\\all user control\\uc_.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAFB5A54-5E83-404D-9B18-C71A7DF6DA6D}|KhachSan\\KhachSan.csproj|C:\\Users\\lenovo\\Downloads\\PBL3\\khachsan\\all user control\\uc_addroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAFB5A54-5E83-404D-9B18-C71A7DF6DA6D}|KhachSan\\KhachSan.csproj|solutionrelative:khachsan\\all user control\\uc_addroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAFB5A54-5E83-404D-9B18-C71A7DF6DA6D}|KhachSan\\KhachSan.csproj|C:\\Users\\lenovo\\Downloads\\PBL3\\khachsan\\all user control\\uc_customerres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAFB5A54-5E83-404D-9B18-C71A7DF6DA6D}|KhachSan\\KhachSan.csproj|solutionrelative:khachsan\\all user control\\uc_customerres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAFB5A54-5E83-404D-9B18-C71A7DF6DA6D}|KhachSan\\KhachSan.csproj|C:\\Users\\lenovo\\Downloads\\PBL3\\khachsan\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AAFB5A54-5E83-404D-9B18-C71A7DF6DA6D}|KhachSan\\KhachSan.csproj|solutionrelative:khachsan\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAFB5A54-5E83-404D-9B18-C71A7DF6DA6D}|KhachSan\\KhachSan.csproj|C:\\Users\\lenovo\\Downloads\\PBL3\\khachsan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAFB5A54-5E83-404D-9B18-C71A7DF6DA6D}|KhachSan\\KhachSan.csproj|solutionrelative:khachsan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,22 +74,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UC_CheckOut.cs",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Downloads\\loliii\\KhachSan\\All User Control\\UC_CheckOut.cs",
-              "RelativeDocumentMoniker": "KhachSan\\All User Control\\UC_CheckOut.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Downloads\\loliii\\KhachSan\\All User Control\\UC_CheckOut.cs",
-              "RelativeToolTip": "KhachSan\\All User Control\\UC_CheckOut.cs",
-              "ViewState": "AQIAADIBAAAAAAAAAAA6wDsBAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T13:30:32.702Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -56,28 +94,190 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UC_CheckOut.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Downloads\\loliii\\KhachSan\\All User Control\\UC_CheckOut.Designer.cs",
-              "RelativeDocumentMoniker": "KhachSan\\All User Control\\UC_CheckOut.Designer.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Downloads\\loliii\\KhachSan\\All User Control\\UC_CheckOut.Designer.cs",
-              "RelativeToolTip": "KhachSan\\All User Control\\UC_CheckOut.Designer.cs",
-              "ViewState": "AQIAABACAAAAAAAAAAAAABkCAAAnAAAA",
+              "DocumentIndex": 0,
+              "Title": "UC_.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Downloads\\PBL3\\KhachSan\\All User Control\\UC_.cs",
+              "RelativeDocumentMoniker": "KhachSan\\All User Control\\UC_.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Downloads\\PBL3\\KhachSan\\All User Control\\UC_.cs",
+              "RelativeToolTip": "KhachSan\\All User Control\\UC_.cs",
+              "ViewState": "AQIAALoAAAAAAAAAAAAUwNQAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T17:14:30.691Z",
+              "WhenOpened": "2024-05-17T13:17:30.333Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "UC_AddRoom.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Downloads\\PBL3\\KhachSan\\All User Control\\UC_AddRoom.cs",
+              "RelativeDocumentMoniker": "KhachSan\\All User Control\\UC_AddRoom.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Downloads\\PBL3\\KhachSan\\All User Control\\UC_AddRoom.cs [Design]",
+              "RelativeToolTip": "KhachSan\\All User Control\\UC_AddRoom.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T07:26:36.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "UC_CheckOut.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Downloads\\loliii\\KhachSan\\All User Control\\UC_CheckOut.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Downloads\\PBL3\\KhachSan\\All User Control\\UC_CheckOut.cs",
               "RelativeDocumentMoniker": "KhachSan\\All User Control\\UC_CheckOut.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Downloads\\loliii\\KhachSan\\All User Control\\UC_CheckOut.cs [Design]",
+              "ToolTip": "C:\\Users\\lenovo\\Downloads\\PBL3\\KhachSan\\All User Control\\UC_CheckOut.cs [Design]",
               "RelativeToolTip": "KhachSan\\All User Control\\UC_CheckOut.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T13:29:48.998Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-17T13:54:37.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UC_CustomerDetails.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Downloads\\PBL3\\KhachSan\\All User Control\\UC_CustomerDetails.cs",
+              "RelativeDocumentMoniker": "KhachSan\\All User Control\\UC_CustomerDetails.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Downloads\\PBL3\\KhachSan\\All User Control\\UC_CustomerDetails.cs [Design]",
+              "RelativeToolTip": "KhachSan\\All User Control\\UC_CustomerDetails.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T08:44:36.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UC_CustomerDetails.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Downloads\\PBL3\\KhachSan\\All User Control\\UC_CustomerDetails.cs",
+              "RelativeDocumentMoniker": "KhachSan\\All User Control\\UC_CustomerDetails.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Downloads\\PBL3\\KhachSan\\All User Control\\UC_CustomerDetails.cs",
+              "RelativeToolTip": "KhachSan\\All User Control\\UC_CustomerDetails.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAASwBcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T08:06:43.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UC_.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Downloads\\PBL3\\KhachSan\\All User Control\\UC_.cs",
+              "RelativeDocumentMoniker": "KhachSan\\All User Control\\UC_.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Downloads\\PBL3\\KhachSan\\All User Control\\UC_.cs [Design]",
+              "RelativeToolTip": "KhachSan\\All User Control\\UC_.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T09:48:51.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dashboard.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Downloads\\PBL3\\KhachSan\\Dashboard.cs",
+              "RelativeDocumentMoniker": "KhachSan\\Dashboard.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Downloads\\PBL3\\KhachSan\\Dashboard.cs",
+              "RelativeToolTip": "KhachSan\\Dashboard.cs",
+              "ViewState": "AQIAAEcAAACAmZmZmZkuwB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T09:59:33.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Dashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Downloads\\PBL3\\KhachSan\\Dashboard.cs",
+              "RelativeDocumentMoniker": "KhachSan\\Dashboard.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Downloads\\PBL3\\KhachSan\\Dashboard.cs [Design]",
+              "RelativeToolTip": "KhachSan\\Dashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T09:57:15.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DataProvider.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Downloads\\PBL3\\KhachSan\\DataProvider.cs",
+              "RelativeDocumentMoniker": "KhachSan\\DataProvider.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Downloads\\PBL3\\KhachSan\\DataProvider.cs",
+              "RelativeToolTip": "KhachSan\\DataProvider.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAuwB4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T00:57:18.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UC_.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Downloads\\PBL3\\KhachSan\\All User Control\\UC_.Designer.cs",
+              "RelativeDocumentMoniker": "KhachSan\\All User Control\\UC_.Designer.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Downloads\\PBL3\\KhachSan\\All User Control\\UC_.Designer.cs",
+              "RelativeToolTip": "KhachSan\\All User Control\\UC_.Designer.cs",
+              "ViewState": "AQIAALIBAAAAAAAAAAApwLIBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T14:01:14.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UC_CustomerRes.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Downloads\\PBL3\\KhachSan\\All User Control\\UC_CustomerRes.cs",
+              "RelativeDocumentMoniker": "KhachSan\\All User Control\\UC_CustomerRes.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Downloads\\PBL3\\KhachSan\\All User Control\\UC_CustomerRes.cs [Design]",
+              "RelativeToolTip": "KhachSan\\All User Control\\UC_CustomerRes.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T07:17:44.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Downloads\\PBL3\\KhachSan\\Program.cs",
+              "RelativeDocumentMoniker": "KhachSan\\Program.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Downloads\\PBL3\\KhachSan\\Program.cs",
+              "RelativeToolTip": "KhachSan\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T09:27:29.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Downloads\\PBL3\\KhachSan\\Form1.cs",
+              "RelativeDocumentMoniker": "KhachSan\\Form1.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Downloads\\PBL3\\KhachSan\\Form1.cs [Design]",
+              "RelativeToolTip": "KhachSan\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T09:27:21.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UC_CustomerRes.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Downloads\\PBL3\\KhachSan\\All User Control\\UC_CustomerRes.cs",
+              "RelativeDocumentMoniker": "KhachSan\\All User Control\\UC_CustomerRes.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Downloads\\PBL3\\KhachSan\\All User Control\\UC_CustomerRes.cs",
+              "RelativeToolTip": "KhachSan\\All User Control\\UC_CustomerRes.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAqwFIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T08:44:55.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UC_AddRoom.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Downloads\\PBL3\\KhachSan\\All User Control\\UC_AddRoom.cs",
+              "RelativeDocumentMoniker": "KhachSan\\All User Control\\UC_AddRoom.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Downloads\\PBL3\\KhachSan\\All User Control\\UC_AddRoom.cs",
+              "RelativeToolTip": "KhachSan\\All User Control\\UC_AddRoom.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T08:39:46.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UC_CheckOut.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Downloads\\PBL3\\KhachSan\\All User Control\\UC_CheckOut.cs",
+              "RelativeDocumentMoniker": "KhachSan\\All User Control\\UC_CheckOut.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Downloads\\PBL3\\KhachSan\\All User Control\\UC_CheckOut.cs",
+              "RelativeToolTip": "KhachSan\\All User Control\\UC_CheckOut.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAApwG8AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T08:09:58.761Z"
             }
           ]
         }

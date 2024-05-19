@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlTypes;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -98,6 +99,7 @@ namespace KhachSan.All_User_Control
             {
                 MessageBox.Show("Cập nhật dữ liệu thành công! ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                 loadDgDichVu();
+                loadT2DGDichVu();
             }
             else
             {
@@ -257,13 +259,15 @@ namespace KhachSan.All_User_Control
         {
             DataTable dt = new DataTable();
             StringBuilder query = new StringBuilder("SELECT use_services_id as [Phiếu Dùng Dịch Vụ]");
-            query.Append(" ,serviceid as [Mã dịch Vụ]");
+            
             query.Append(" ,serviceName as [Tên Dịch Vụ]");
             query.Append(" ,price as [Giá Dịch Vụ]");
-            query.Append(" ,cid as [Mã Khách Hàng]");
+            
             query.Append(" ,cname as [Tên Khách Hàng]");
             query.Append(" ,mobile as [SDT]");
             query.Append(" ,quanlity as [Số Lượng]");
+            query.Append(" ,serviceid as [Mã dịch Vụ]");
+            query.Append(" ,cid as [Mã Khách Hàng]");
             query.Append(" FROM services , Use_services, customer");
             query.Append(" WHERE customer.cid = Use_services.CustomerID AND Use_services.service_id = services.serviceid ");
 
@@ -272,6 +276,8 @@ namespace KhachSan.All_User_Control
             t3DgTT.DataSource = dt;
         }
         int maPhieuDung;
+        int maDVt3;
+        int maKHt3;
         private void t3DgTT_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             try
@@ -281,7 +287,7 @@ namespace KhachSan.All_User_Control
                     DataGridViewRow row = t3DgTT.Rows[e.RowIndex];
                     maPhieuDung = Convert.ToInt32(row.Cells["Phiếu Dùng Dịch Vụ"].Value);
                     tb3num.Value = Convert.ToInt32(row.Cells["Số Lượng"].Value);
-                    t3cbMKH.SelectedValue = row.Cells["Mã Khách Hàng"].Value.ToString();
+                    t3cbMKH.Text = row.Cells["Mã Khách Hàng"].Value.ToString();
                     tb3cbTenDv.Text = row.Cells["Tên Dịch Vụ"].Value.ToString();
                 }
             }
@@ -313,13 +319,6 @@ namespace KhachSan.All_User_Control
 
             tb3cbTenDv.DataSource = dt;
         }
-        //private void t3cbMKH_SelectedIndexChanged(object sender, EventArgs e)
-        //{
-        //    string selectedValue = t3cbMKH.SelectedValue.ToString();
-
-        //    // Hiển thị giá trị tương ứng trong t3txtName.Text
-        //    t3txtName.Text = selectedValue;
-        //}
 
         private void tb3cbTenDv_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -329,9 +328,10 @@ namespace KhachSan.All_User_Control
         {
             if ((int)(tb3num.Value) > 0)
             {
-                int maKH = Int32.Parse(t3cbMKH.Text);
-                int maDV = Int32.Parse(t3txtMaDV.Text);
+                int maKH = Int32.Parse(t3cbMKH.Text.ToString());
+                int maDV = Int32.Parse(t3txtMaDV.Text.ToString());
                 int sl = (int)tb3num.Value;
+
                 StringBuilder query = new StringBuilder("EXEC use_services_edit");
                 query.Append(" @useServicesID = " + maPhieuDung);
                 query.Append(" ,@servicesId = " + maDV);
@@ -342,10 +342,11 @@ namespace KhachSan.All_User_Control
                 {
                     MessageBox.Show("Cập nhật dữ liệu thành công! ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                     loadDgDichVu();
+                    loadt3DgTT();
                 }
                 else
                 {
-                    MessageBox.Show("Cập nhật sách không thành công! ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Cập nhật dữ liệu không thành công! ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             else
@@ -355,5 +356,40 @@ namespace KhachSan.All_User_Control
 
         }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            loadT3TenDichVu();
+            loadT3cbMKH();
+            loadt3DgTT();
+        }
+
+        private void t3cbMKH_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string selectedValue = t3cbMKH.SelectedValue.ToString();
+
+            //Hiển thị giá trị tương ứng trong t3txtName.Text
+             t3txtName.Text = selectedValue;
+        }
+
+        private void btnXOAQLDV_Click(object sender, EventArgs e)
+        {
+            
+            DialogResult check = MessageBox.Show("Bạn có chắc chắn xóa phiếu dùng dịch vụ: " + maPhieuDung + " này không? ", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (check == DialogResult.Yes)
+            {
+                int resulrt = dataProvider.execNonQuery("DELETE From Use_services WHERE use_services_id =  " + maPhieuDung);
+                if (resulrt > 0)
+                {
+                    MessageBox.Show("Xóa phiếu dùng có mã " + maPhieuDung + " thành công", "Thông báo",MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+
+                    loadt3DgTT();
+                }
+                else
+                {
+                    MessageBox.Show("Xóa phiếu dùng có mã " + maPhieuDung + " không thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
     }
 }

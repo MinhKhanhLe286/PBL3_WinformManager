@@ -26,6 +26,8 @@ namespace KhachSan
         {
             uC_AddRoom1.Visible = false;
             uC_CustomerRes1.Visible = false;
+            uC_1.Visible = false;
+
             uC_CheckOut1.Visible = false;
             uC_CustomerDetails1.Visible = false;
             uC_Employee1.Visible = false;
@@ -84,6 +86,15 @@ namespace KhachSan
             uC_Employee1.BringToFront();
 
 
+        }
+
+        private void btnThanhToan_Click(object sender, EventArgs e)
+        {
+            PanelMoving.Left = btnThanhToan.Left + 20;
+            uC_1.Visible = true;
+            uC_1.BringToFront();
+
+            
         }
     }
 }

@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\KhachSan",
+    "\\KhachSan\\All User Control"
   ],
-  "SelectedNode": "\\KhachSan.sln",
+  "SelectedNode": "\\KhachSan\\All User Control\\UC_.cs",
   "PreviewInSolutionExplorer": false
 }

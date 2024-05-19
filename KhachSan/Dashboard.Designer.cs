@@ -34,11 +34,6 @@ namespace KhachSan
             this.btnExit = new Guna.UI2.WinForms.Guna2CircleButton();
             this.btnMinisize = new Guna.UI2.WinForms.Guna2Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.uC_Employee1 = new KhachSan.All_User_Control.UC_Employee();
-            this.uC_CustomerDetails1 = new KhachSan.All_User_Control.UC_CustomerDetails();
-            this.uC_CheckOut1 = new KhachSan.All_User_Control.UC_CheckOut();
-            this.uC_CustomerRes1 = new KhachSan.All_User_Control.UC_CustomerRes();
-            this.uC_AddRoom1 = new KhachSan.All_User_Control.UC_AddRoom();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
@@ -49,8 +44,17 @@ namespace KhachSan
             this.btnEmployee = new Guna.UI2.WinForms.Guna2Button();
             this.PanelMoving = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.btnThanhToan = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse5 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse6 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.guna2Elipse7 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.uC_1 = new KhachSan.All_User_Control.UC_();
+            this.uC_Employee1 = new KhachSan.All_User_Control.UC_Employee();
+            this.uC_CustomerDetails1 = new KhachSan.All_User_Control.UC_CustomerDetails();
+            this.uC_CheckOut1 = new KhachSan.All_User_Control.UC_CheckOut();
+            this.uC_CustomerRes1 = new KhachSan.All_User_Control.UC_CustomerRes();
+            this.uC_AddRoom1 = new KhachSan.All_User_Control.UC_AddRoom();
             this.panel1.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
@@ -66,11 +70,10 @@ namespace KhachSan
             this.btnExit.ForeColor = System.Drawing.Color.White;
             this.btnExit.Image = ((System.Drawing.Image)(resources.GetObject("btnExit.Image")));
             this.btnExit.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnExit.Location = new System.Drawing.Point(1, 2);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnExit.Location = new System.Drawing.Point(2, 3);
             this.btnExit.Name = "btnExit";
             this.btnExit.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.btnExit.Size = new System.Drawing.Size(29, 29);
+            this.btnExit.Size = new System.Drawing.Size(44, 45);
             this.btnExit.TabIndex = 0;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
@@ -85,72 +88,25 @@ namespace KhachSan
             this.btnMinisize.ForeColor = System.Drawing.Color.White;
             this.btnMinisize.Image = ((System.Drawing.Image)(resources.GetObject("btnMinisize.Image")));
             this.btnMinisize.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnMinisize.Location = new System.Drawing.Point(1, 40);
-            this.btnMinisize.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnMinisize.Location = new System.Drawing.Point(2, 62);
             this.btnMinisize.Name = "btnMinisize";
-            this.btnMinisize.Size = new System.Drawing.Size(29, 25);
+            this.btnMinisize.Size = new System.Drawing.Size(44, 38);
             this.btnMinisize.TabIndex = 1;
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Silver;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.uC_1);
             this.panel1.Controls.Add(this.uC_Employee1);
             this.panel1.Controls.Add(this.uC_CustomerDetails1);
             this.panel1.Controls.Add(this.uC_CheckOut1);
             this.panel1.Controls.Add(this.uC_CustomerRes1);
             this.panel1.Controls.Add(this.uC_AddRoom1);
-            this.panel1.Location = new System.Drawing.Point(47, 110);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Location = new System.Drawing.Point(70, 169);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1343, 766);
+            this.panel1.Size = new System.Drawing.Size(2014, 1177);
             this.panel1.TabIndex = 3;
-            // 
-            // uC_Employee1
-            // 
-            this.uC_Employee1.BackColor = System.Drawing.Color.White;
-            this.uC_Employee1.Location = new System.Drawing.Point(2, -71);
-            this.uC_Employee1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
-            this.uC_Employee1.Name = "uC_Employee1";
-            this.uC_Employee1.Size = new System.Drawing.Size(1389, 900);
-            this.uC_Employee1.TabIndex = 8;
-            this.uC_Employee1.Load += new System.EventHandler(this.uC_Employee1_Load);
-            // 
-            // uC_CustomerDetails1
-            // 
-            this.uC_CustomerDetails1.BackColor = System.Drawing.Color.White;
-            this.uC_CustomerDetails1.Location = new System.Drawing.Point(-1, -1);
-            this.uC_CustomerDetails1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
-            this.uC_CustomerDetails1.Name = "uC_CustomerDetails1";
-            this.uC_CustomerDetails1.Size = new System.Drawing.Size(1449, 833);
-            this.uC_CustomerDetails1.TabIndex = 7;
-            // 
-            // uC_CheckOut1
-            // 
-            this.uC_CheckOut1.BackColor = System.Drawing.Color.White;
-            this.uC_CheckOut1.Location = new System.Drawing.Point(-1, -1);
-            this.uC_CheckOut1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
-            this.uC_CheckOut1.Name = "uC_CheckOut1";
-            this.uC_CheckOut1.Size = new System.Drawing.Size(1389, 721);
-            this.uC_CheckOut1.TabIndex = 6;
-            // 
-            // uC_CustomerRes1
-            // 
-            this.uC_CustomerRes1.BackColor = System.Drawing.Color.White;
-            this.uC_CustomerRes1.Location = new System.Drawing.Point(2, 2);
-            this.uC_CustomerRes1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
-            this.uC_CustomerRes1.Name = "uC_CustomerRes1";
-            this.uC_CustomerRes1.Size = new System.Drawing.Size(1347, 697);
-            this.uC_CustomerRes1.TabIndex = 5;
-            // 
-            // uC_AddRoom1
-            // 
-            this.uC_AddRoom1.BackColor = System.Drawing.Color.White;
-            this.uC_AddRoom1.Location = new System.Drawing.Point(2, 2);
-            this.uC_AddRoom1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
-            this.uC_AddRoom1.Name = "uC_AddRoom1";
-            this.uC_AddRoom1.Size = new System.Drawing.Size(1353, 772);
-            this.uC_AddRoom1.TabIndex = 4;
             // 
             // guna2Elipse1
             // 
@@ -176,10 +132,9 @@ namespace KhachSan
             this.btnAddRoom.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnAddRoom.ForeColor = System.Drawing.Color.White;
             this.btnAddRoom.Image = ((System.Drawing.Image)(resources.GetObject("btnAddRoom.Image")));
-            this.btnAddRoom.Location = new System.Drawing.Point(16, 11);
-            this.btnAddRoom.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAddRoom.Location = new System.Drawing.Point(24, 17);
             this.btnAddRoom.Name = "btnAddRoom";
-            this.btnAddRoom.Size = new System.Drawing.Size(191, 56);
+            this.btnAddRoom.Size = new System.Drawing.Size(233, 86);
             this.btnAddRoom.TabIndex = 0;
             this.btnAddRoom.Text = "Thêm Phòng";
             this.btnAddRoom.Click += new System.EventHandler(this.btnAddRoom_Click);
@@ -196,10 +151,9 @@ namespace KhachSan
             this.btnCustomerRes.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnCustomerRes.ForeColor = System.Drawing.Color.White;
             this.btnCustomerRes.Image = ((System.Drawing.Image)(resources.GetObject("btnCustomerRes.Image")));
-            this.btnCustomerRes.Location = new System.Drawing.Point(249, 11);
-            this.btnCustomerRes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCustomerRes.Location = new System.Drawing.Point(350, 26);
             this.btnCustomerRes.Name = "btnCustomerRes";
-            this.btnCustomerRes.Size = new System.Drawing.Size(195, 56);
+            this.btnCustomerRes.Size = new System.Drawing.Size(231, 86);
             this.btnCustomerRes.TabIndex = 1;
             this.btnCustomerRes.Text = "Đăng kí khách hàng";
             this.btnCustomerRes.Click += new System.EventHandler(this.btnCustomerRes_Click);
@@ -216,12 +170,11 @@ namespace KhachSan
             this.btnCheckOut.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnCheckOut.ForeColor = System.Drawing.Color.White;
             this.btnCheckOut.Image = ((System.Drawing.Image)(resources.GetObject("btnCheckOut.Image")));
-            this.btnCheckOut.Location = new System.Drawing.Point(520, 11);
-            this.btnCheckOut.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCheckOut.Location = new System.Drawing.Point(664, 26);
             this.btnCheckOut.Name = "btnCheckOut";
-            this.btnCheckOut.Size = new System.Drawing.Size(190, 56);
+            this.btnCheckOut.Size = new System.Drawing.Size(249, 86);
             this.btnCheckOut.TabIndex = 2;
-            this.btnCheckOut.Text = "Thanh Toán";
+            this.btnCheckOut.Text = "Dịch Vụ";
             this.btnCheckOut.Click += new System.EventHandler(this.btnCheckOut_Click);
             // 
             // btnCustomerDetail
@@ -236,10 +189,9 @@ namespace KhachSan
             this.btnCustomerDetail.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnCustomerDetail.ForeColor = System.Drawing.Color.White;
             this.btnCustomerDetail.Image = ((System.Drawing.Image)(resources.GetObject("btnCustomerDetail.Image")));
-            this.btnCustomerDetail.Location = new System.Drawing.Point(797, 11);
-            this.btnCustomerDetail.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCustomerDetail.Location = new System.Drawing.Point(985, 26);
             this.btnCustomerDetail.Name = "btnCustomerDetail";
-            this.btnCustomerDetail.Size = new System.Drawing.Size(195, 56);
+            this.btnCustomerDetail.Size = new System.Drawing.Size(258, 86);
             this.btnCustomerDetail.TabIndex = 3;
             this.btnCustomerDetail.Text = "Thông tin chi tiết khách hàng";
             this.btnCustomerDetail.Click += new System.EventHandler(this.btnCustomerDetail_Click);
@@ -256,10 +208,9 @@ namespace KhachSan
             this.btnEmployee.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btnEmployee.ForeColor = System.Drawing.Color.White;
             this.btnEmployee.Image = ((System.Drawing.Image)(resources.GetObject("btnEmployee.Image")));
-            this.btnEmployee.Location = new System.Drawing.Point(1079, 11);
-            this.btnEmployee.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnEmployee.Location = new System.Drawing.Point(1657, 17);
             this.btnEmployee.Name = "btnEmployee";
-            this.btnEmployee.Size = new System.Drawing.Size(223, 56);
+            this.btnEmployee.Size = new System.Drawing.Size(283, 86);
             this.btnEmployee.TabIndex = 4;
             this.btnEmployee.Text = "Nhân Viên";
             this.btnEmployee.Click += new System.EventHandler(this.btnEmployee_Click);
@@ -268,16 +219,16 @@ namespace KhachSan
             // 
             this.PanelMoving.BackColor = System.Drawing.Color.Black;
             this.PanelMoving.BorderRadius = 18;
-            this.PanelMoving.Location = new System.Drawing.Point(16, 76);
-            this.PanelMoving.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.PanelMoving.Location = new System.Drawing.Point(50, 119);
             this.PanelMoving.Name = "PanelMoving";
-            this.PanelMoving.Size = new System.Drawing.Size(167, 6);
+            this.PanelMoving.Size = new System.Drawing.Size(197, 9);
             this.PanelMoving.TabIndex = 0;
             // 
             // guna2Panel1
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.LightCyan;
             this.guna2Panel1.BorderRadius = 18;
+            this.guna2Panel1.Controls.Add(this.btnThanhToan);
             this.guna2Panel1.Controls.Add(this.PanelMoving);
             this.guna2Panel1.Controls.Add(this.btnEmployee);
             this.guna2Panel1.Controls.Add(this.btnCustomerDetail);
@@ -285,12 +236,30 @@ namespace KhachSan
             this.guna2Panel1.Controls.Add(this.btnCustomerRes);
             this.guna2Panel1.Controls.Add(this.btnAddRoom);
             this.guna2Panel1.ForeColor = System.Drawing.Color.Black;
-            this.guna2Panel1.Location = new System.Drawing.Point(47, 8);
-            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Panel1.Location = new System.Drawing.Point(70, 12);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(1332, 94);
+            this.guna2Panel1.Size = new System.Drawing.Size(1998, 145);
             this.guna2Panel1.TabIndex = 2;
             this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
+            // 
+            // btnThanhToan
+            // 
+            this.btnThanhToan.BorderRadius = 18;
+            this.btnThanhToan.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.btnThanhToan.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnThanhToan.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnThanhToan.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnThanhToan.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnThanhToan.FillColor = System.Drawing.Color.Black;
+            this.btnThanhToan.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnThanhToan.ForeColor = System.Drawing.Color.White;
+            this.btnThanhToan.Image = ((System.Drawing.Image)(resources.GetObject("btnThanhToan.Image")));
+            this.btnThanhToan.Location = new System.Drawing.Point(1315, 26);
+            this.btnThanhToan.Name = "btnThanhToan";
+            this.btnThanhToan.Size = new System.Drawing.Size(241, 86);
+            this.btnThanhToan.TabIndex = 5;
+            this.btnThanhToan.Text = "Thanh Toán";
+            this.btnThanhToan.Click += new System.EventHandler(this.btnThanhToan_Click);
             // 
             // guna2Elipse4
             // 
@@ -300,18 +269,79 @@ namespace KhachSan
             // 
             this.guna2Elipse5.TargetControl = this;
             // 
+            // guna2Elipse6
+            // 
+            this.guna2Elipse6.TargetControl = this;
+            // 
+            // guna2Elipse7
+            // 
+            this.guna2Elipse7.TargetControl = this;
+            // 
+            // uC_1
+            // 
+            this.uC_1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.uC_1.Location = new System.Drawing.Point(-2, 3);
+            this.uC_1.Name = "uC_1";
+            this.uC_1.Size = new System.Drawing.Size(2084, 1200);
+            this.uC_1.TabIndex = 9;
+            // 
+            // uC_Employee1
+            // 
+            this.uC_Employee1.BackColor = System.Drawing.Color.White;
+            this.uC_Employee1.Location = new System.Drawing.Point(-2, -141);
+            this.uC_Employee1.Margin = new System.Windows.Forms.Padding(2);
+            this.uC_Employee1.Name = "uC_Employee1";
+            this.uC_Employee1.Size = new System.Drawing.Size(2084, 1385);
+            this.uC_Employee1.TabIndex = 8;
+            this.uC_Employee1.Load += new System.EventHandler(this.uC_Employee1_Load);
+            // 
+            // uC_CustomerDetails1
+            // 
+            this.uC_CustomerDetails1.BackColor = System.Drawing.Color.White;
+            this.uC_CustomerDetails1.Location = new System.Drawing.Point(-2, -2);
+            this.uC_CustomerDetails1.Margin = new System.Windows.Forms.Padding(2);
+            this.uC_CustomerDetails1.Name = "uC_CustomerDetails1";
+            this.uC_CustomerDetails1.Size = new System.Drawing.Size(2174, 1282);
+            this.uC_CustomerDetails1.TabIndex = 7;
+            // 
+            // uC_CheckOut1
+            // 
+            this.uC_CheckOut1.BackColor = System.Drawing.Color.White;
+            this.uC_CheckOut1.Location = new System.Drawing.Point(-2, -2);
+            this.uC_CheckOut1.Margin = new System.Windows.Forms.Padding(2);
+            this.uC_CheckOut1.Name = "uC_CheckOut1";
+            this.uC_CheckOut1.Size = new System.Drawing.Size(2084, 1109);
+            this.uC_CheckOut1.TabIndex = 6;
+            // 
+            // uC_CustomerRes1
+            // 
+            this.uC_CustomerRes1.BackColor = System.Drawing.Color.White;
+            this.uC_CustomerRes1.Location = new System.Drawing.Point(3, 3);
+            this.uC_CustomerRes1.Margin = new System.Windows.Forms.Padding(2);
+            this.uC_CustomerRes1.Name = "uC_CustomerRes1";
+            this.uC_CustomerRes1.Size = new System.Drawing.Size(2020, 1072);
+            this.uC_CustomerRes1.TabIndex = 5;
+            // 
+            // uC_AddRoom1
+            // 
+            this.uC_AddRoom1.BackColor = System.Drawing.Color.White;
+            this.uC_AddRoom1.Location = new System.Drawing.Point(3, 3);
+            this.uC_AddRoom1.Margin = new System.Windows.Forms.Padding(2);
+            this.uC_AddRoom1.Name = "uC_AddRoom1";
+            this.uC_AddRoom1.Size = new System.Drawing.Size(2030, 1188);
+            this.uC_AddRoom1.TabIndex = 4;
+            // 
             // Dashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LavenderBlush;
-            this.ClientSize = new System.Drawing.Size(1390, 620);
+            this.ClientSize = new System.Drawing.Size(2085, 954);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.btnMinisize);
             this.Controls.Add(this.btnExit);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
@@ -345,5 +375,9 @@ namespace KhachSan
         private All_User_Control.UC_CustomerDetails uC_CustomerDetails1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse5;
         private All_User_Control.UC_Employee uC_Employee1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse6;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse7;
+        private All_User_Control.UC_ uC_1;
+        private Guna.UI2.WinForms.Guna2Button btnThanhToan;
     }
 }

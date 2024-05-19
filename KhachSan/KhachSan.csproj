@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Aspose.Words, Version=11.3.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
+      <HintPath>..\packages\Aspose.Words.11.3.0\lib\net3.5\Aspose.Words.dll</HintPath>
+    </Reference>
     <Reference Include="Guna.UI2, Version=2.0.3.5, Culture=neutral, PublicKeyToken=4015e4865bda28a4, processorArchitecture=MSIL">
       <HintPath>..\packages\Guna.UI2.WinForms.2.0.3.5\lib\net40\Guna.UI2.dll</HintPath>
     </Reference>
@@ -49,6 +52,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="All User Control\UC_.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="All User Control\UC_.Designer.cs">
+      <DependentUpon>UC_.cs</DependentUpon>
+    </Compile>
     <Compile Include="All User Control\UC_CustomerDetails.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -95,6 +104,9 @@
     <Compile Include="function.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="All User Control\UC_.resx">
+      <DependentUpon>UC_.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="All User Control\UC_AddRoom.resx">
       <DependentUpon>UC_AddRoom.cs</DependentUpon>
     </EmbeddedResource>
@@ -135,6 +147,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="template\BillPrint.doc" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
